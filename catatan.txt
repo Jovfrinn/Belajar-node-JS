@@ -1,0 +1,110 @@
+## Apa itu NodeJS?
+-----------------------------------------------------------------------
+Node JS is a JavaScript runtime built on Chrome's V8 JavaScript Engine
+adalah sebuah runtime untuk membuat aplikasi yang asyncronus
+node js bukan bahasa pemrograman
+
+
+Runtime?
+dimana kita menjalankan/mengeksekusi code kita
+----------------------------------------------------------------------------------------------------------
+## Arsitektur NodeJS
+-----------------------------------------------------------------------
+-fs.writeFile()      file system
+-os.platform()
+-http.createServer()
+-path.dirname()
+----------------------------------------------------------------------------------------------------------
+## REPL (Read-Eval-Print-Loop)
+-----------------------------------------------------------------------
+syntax nya = node     untuk membuka code node
+
+selama masih di sesi REPL apapun yang disimpan atau dikerjakan akan bisa di akses
+
+
+vi namaFile untuk membuka editor tapi di command nya
+cat namaFile untuk melihat hasil dari code nya
+
+.help untuk mengeluarkan kode yang dibutuhkan
+.break untuk loop lagi saat menulis syntax
+.editor untuk membuka text editor di REPL node
+.exit atau ctrl + c untuk keluar dari sesi REPL node
+.load untuk meload file dari local
+.save untuk save yang di ketikan dari REPL node
+----------------------------------------------------------------------------------------------------------
+## Menjalankan File Node
+-----------------------------------------------------------------------
+Jika ada index maka ketik saja node .
+maka node akan mencari file index
+saran mengetik nya secara ekspelisit saja
+
+jika di js biasa ada yang namanya object window
+
+
+require('path') untuk seperti kayak window
+
+node js itu menganut sesuatu yang disebut dengan sistem modul apa yang ada di modul yang satu ga bisa sembarang di akses di modul yang lain
+
+tapi bisa menggunakan | module.exports = variabel atau function yang ingin di akses
+tapi harus di simpan di variabel juga
+
+----------------------------------------------------------------------------------------------------------
+## NodeJS Module System
+-----------------------------------------------------------------------
+node modules?
+fungsionalitas yang simpel ataupun kompleks yang tersimpan didalam sebuah file JavaScript, yang dapat kita gunakan kembali pada aplikasi node js
+
+setiap modul di dalam node js memiliki konteks-nya masing-masing, tidak bisa saling tercampur dengan modul lain pada lingkup global.
+
+
+require()
+fungsi require mencari module dengan urutan sebagai berikut:
+1. Core Modules
+2. File atau direktori (./  atau ../)
+3. Folder `node_modules`
+----------------------------------------------------------------------------------------------------------
+## NodeJS Core Modules
+-----------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------------------------------------------
+## NPM
+-----------------------------------------------------------------------
+Pertama harus di initialisasi
+lalu download
+npm run   untuk menjalankan script
+
+----------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
