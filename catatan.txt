@@ -76,11 +76,57 @@ lalu download
 npm run   untuk menjalankan script
 
 ----------------------------------------------------------------------------------------------------------
+## Express
+-----------------------------------------------------------------------
+Apa itu ExpressJS?
+- Web App Framework yang di buat di atas NodeJS.
+- Menyediakan antarmuka yang minimal untuk kakas yang diperlukan dalam  membuat sebuah aplikasi web.
+- Membantu pengelolaan aliran data dari server ke aplikasi
+- MERN, MEVN, MEAN
+
+Fitur Express JS
+- Menangani request dengan berbagai metode http dengan mudah (routes)
+- MVC
+- Terintegrasi dengan "view" rendering engine, untuk mengelola template.
+- Middleware
+
+Unopinionated
+-Tidak ada aturan baku untuk membuat sesuatu
+-Fleksibel
+-Menentukan sendiri struktur aplikasi
+-Bongkar pasang Middleware
+
+Templating Engine
+-pug
+-haml.js
+-EJS
+-React
+-Blade
+-swig
+dan lain lain
+
+DataBase
+-MySql
+-MongoDB
+-Oracle
+-SQL server
+-SQL lite
+-Postgre SQl
+
+## View / Template Engine
+-----
+-  Memungkinkan kita  membuat file template statis untuk aplikasi kita
+- Engine tersebut mengganti variable pada template kita dengan nilai sebenarnya, lalu menampilkannya dalam bentuk HTML
+- Mempermudah untuk pembuatan halaman HTML (WEB)
 
 
+## Middleware
+-----   
+Sebuah software yang menghubungkan software atau aplikasi lain
 
-
-
+Express Middleware
+"Aplikasi  Express itu sebenarnya berisi serangkaian pemanggilan fungsi Middleware"
+----------------------------------------------------------------------------------------------------------
 
 
 
