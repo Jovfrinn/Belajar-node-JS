@@ -8,7 +8,7 @@ const flash = require('connect-flash')
 const app = express()
 const port = 3000
 
-// gunakan ejs
+// Setup EJS
 app.set('view engine', 'ejs');
 // Third-Party Middleware
 app.use(expressLayouts)

@@ -131,6 +131,37 @@ Express Middleware
 
 
 
+## MongoDB
+---------------
+MongoDB adalah sebuah -*database berbasis dokumen*- yang memiliki  skalabilitas dan Fleksibelitas  yang kita inginkan  dan juga fitur  query dan indexing yang kita butuhkan
+
+salah satu tipe dari NoSQL( Not Only SQL) Database
+-Not Only SQL
+-Schemaless / Fleksible Schema
+-Denormalization
+-Non-Relational Database
+-unstructred, semi-structured, structured data
+
+Tipe NoSQL DataBase
+-key-value store
+  -Redis
+-Document Based
+  -MongoDB,CouchDB
+-Column-oriented DataBase
+  -HBase, Casandra
+-Graph DataBase
+  -Neo4J
+
+
+disebut Collection
+
+satu record/satu data = document
+salah satu didalam data = field 
+-------------------------------------------------------------------------------------------------------------
+
+
+
+
 
 
 
